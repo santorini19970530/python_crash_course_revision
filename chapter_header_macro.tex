@@ -1,0 +1,17 @@
+% Chapter Header Macro
+% Add this to your main document for automatic chapter headers
+
+\newcommand{\chapterwithheader}[1]{%
+    \chapter*{#1}%
+    \fancyhf{}%
+    \rhead{Python Crash Course Notes}%
+    \lhead{#1}%
+    \cfoot{\thepage}%
+}
+
+% Usage example:
+% \chapterwithheader{Chapter 1: Getting Started}
+% \import{./}{chapter1_content.tex}
+%
+% \chapterwithheader{Chapter 2: Variables and Simple Data Types}
+% \import{./}{chapter2_content.tex} 

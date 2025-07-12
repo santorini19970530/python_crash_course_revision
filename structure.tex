@@ -1,0 +1,71 @@
+% Structure.tex - Contains all formatting and setup for Python Crash Course Notes
+% This file should be imported into the main document
+
+% Packages (documentclass should be in main document)
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{import}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% Page setup
+\geometry{margin=1in, headheight=15pt}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Python Crash Course Notes}
+\lhead{} 
+\cfoot{\thepage}
+
+% Code listing setup
+\lstset{
+    language=Python,
+    basicstyle=\ttfamily\small,
+    keywordstyle=\color{blue},
+    commentstyle=\color{gray},
+    stringstyle=\color{red},
+    showstringspaces=false,
+    breaklines=true,
+    frame=single,
+    inputencoding=utf8,
+    extendedchars=true,
+    literate={ö}{{\"o}}1 {ä}{{\"a}}1 {ü}{{\"u}}1 {ß}{{\ss}}1
+}
+
+% Title formatting
+\titleformat{\chapter}{\Huge\bfseries}{}{0em}{}
+\titleformat{\section}{\Large\bfseries}{}{1em}{}
+\titleformat{\subsection}{\large\bfseries}{}{1em}{}
+
+% Hyperref setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Python Crash Course Notes},
+    pdfauthor={Student Notes},
+    pdfsubject={Python Programming},
+    pdfkeywords={Python, Programming, Crash Course}
+}
+
+% Chapter Header Macro - Automatic headers for each chapter
+\newcommand{\chapterwithheader}[1]{%
+    \chapter{#1}%
+    \fancyhf{}%
+    \rhead{Python Crash Course Notes}%
+    \lhead{#1}%
+    \cfoot{\thepage}%
+}
+
+% Document title and author
+\title{\textbf{Python Crash Course}\\
+\large Complete Study Notes}
+\author{Eric Matthes}
+\date{\today} 

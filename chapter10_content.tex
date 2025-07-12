@@ -1,0 +1,182 @@
+% Chapter 10 Content - Files and Exceptions
+% This file contains the content for Chapter 10 based on actual Python files
+
+This document contains the essential keywords and definitions from Chapter 10 of "Python Crash Course" along with their corresponding code examples.
+
+\subsection*{1. File - Data Storage}
+\textbf{Definition}: A collection of information stored as a unit on a computer, accessible by programs.
+
+\begin{lstlisting}
+filename = 'pi_digits.txt'
+with open(filename) as file_object:
+    contents = file_object.read()
+\end{lstlisting}
+
+\subsection*{2. open() Function - File Access}
+\textbf{Definition}: A function that opens a file and returns a file object, which contains methods and attributes for working with the file.
+
+\begin{lstlisting}
+with open('pi_digits.txt') as file_object:
+    contents = file_object.read()
+\end{lstlisting}
+
+\subsection*{3. with Statement - File Context}
+\textbf{Definition}: A statement that ensures a file is properly closed after the block of code using it is finished.
+
+\begin{lstlisting}
+with open('pi_digits.txt') as file_object:
+    contents = file_object.read()
+# File is automatically closed here
+\end{lstlisting}
+
+\subsection*{4. read() Method - File Content}
+\textbf{Definition}: A method that reads the entire contents of a file as a string.
+
+\lstinputlisting[language=Python, caption=Reading file contents]{Chapter10/1001_pi/file_reader.py}
+
+\subsection*{5. readlines() Method - Line List}
+\textbf{Definition}: A method that reads each line from a file and stores them in a list.
+
+\begin{lstlisting}
+with open('pi_digits.txt') as file_object:
+    lines = file_object.readlines()
+
+for line in lines:
+    print(line.rstrip())
+\end{lstlisting}
+
+\subsection*{6. write() Method - File Writing}
+\textbf{Definition}: A method that writes a string to a file, overwriting the file's contents.
+
+\begin{lstlisting}
+filename = 'programming.txt'
+with open(filename, 'w') as file_object:
+    file_object.write("I love programming.")
+\end{lstlisting}
+
+\subsection*{7. append Mode - 'a' Parameter}
+\textbf{Definition}: A file mode that adds content to the end of a file instead of overwriting it.
+
+\begin{lstlisting}
+filename = 'programming.txt'
+with open(filename, 'a') as file_object:
+    file_object.write("I also love finding meaning in large datasets.\n")
+\end{lstlisting}
+
+\subsection*{8. Exception - Error Handling}
+\textbf{Definition}: An error that occurs during program execution, which can be caught and handled.
+
+\lstinputlisting[language=Python, caption=Exception handling]{Chapter10/1004_division_calculator.py}
+
+\subsection*{9. try-except Block - Error Catching}
+\textbf{Definition}: A block of code that tries to run some code and catches any exceptions that occur.
+
+\begin{lstlisting}
+try:
+    answer = int(first_number) / int(second_number)
+except ZeroDivisionError:
+    print("You can't divide by 0!")
+\end{lstlisting}
+
+\subsection*{10. else Block - Success Handling}
+\textbf{Definition}: A block of code that runs only if the try block succeeds (no exceptions occur).
+
+\begin{lstlisting}
+try:
+    answer = int(first_number) / int(second_number)
+except ZeroDivisionError:
+    print("You can't divide by 0!")
+else:
+    print(answer)
+\end{lstlisting}
+
+\subsection*{11. FileNotFoundError - Missing File}
+\textbf{Definition}: An exception that occurs when trying to open a file that doesn't exist.
+
+\lstinputlisting[language=Python, caption=Handling missing files]{Chapter10/1006_word_count.py}
+
+\subsection*{12. ZeroDivisionError - Division by Zero}
+\textbf{Definition}: An exception that occurs when trying to divide by zero.
+
+\begin{lstlisting}
+try:
+    print(5/0)
+except ZeroDivisionError:
+    print("You can't divide by zero!")
+\end{lstlisting}
+
+\subsection*{13. ValueError - Invalid Conversion}
+\textbf{Definition}: An exception that occurs when trying to convert a string to a number when the string doesn't contain a valid number.
+
+\begin{lstlisting}
+try:
+    age = int(input("Enter your age: "))
+except ValueError:
+    print("Please enter a valid number.")
+\end{lstlisting}
+
+\subsection*{14. pass Statement - Silent Failure}
+\textbf{Definition}: A statement that tells Python to do nothing in a block, often used in exception handling.
+
+\begin{lstlisting}
+try:
+    with open(filename) as f:
+        contents = f.read()
+except FileNotFoundError:
+    pass  # Do nothing if file not found
+\end{lstlisting}
+
+\subsection*{15. JSON - Data Format}
+\textbf{Definition}: A lightweight data format that's easy for programs to parse and generate.
+
+\begin{lstlisting}
+import json
+
+numbers = [2, 3, 5, 7, 11, 13]
+filename = 'numbers.json'
+with open(filename, 'w') as f:
+    json.dump(numbers, f)
+\end{lstlisting}
+
+\section*{Practical Examples from Chapter 10}
+
+\subsection*{Working with Files and Exceptions}
+Chapter 10 introduces file handling and exception handling. Here are the key files:
+
+\textbf{File Reading Operations:}
+\lstinputlisting[language=Python, caption=Chapter10/1001\_pi/file\_reader.py]{Chapter10/1001_pi/file_reader.py}
+
+\textbf{Exception Handling:}
+\lstinputlisting[language=Python, caption=Chapter10/1004\_division\_calculator.py]{Chapter10/1004_division_calculator.py}
+
+\textbf{File Error Handling:}
+\lstinputlisting[language=Python, caption=Chapter10/1006\_word\_count.py]{Chapter10/1006_word_count.py}
+
+\textbf{To run these programs:}
+\begin{verbatim}
+python Chapter10/1001_pi/file_reader.py
+python Chapter10/1004_division_calculator.py
+python Chapter10/1006_word_count.py
+\end{verbatim}
+
+\section*{Summary}
+Chapter 10 focuses on files and exceptions. You learn how to read from and write to files, handle errors gracefully, and work with different file formats like JSON.
+
+\section*{Key Takeaways}
+\begin{itemize}
+    \item Files store data persistently
+    \item open() creates file objects
+    \item with ensures proper file closing
+    \item read() gets entire file content
+    \item readlines() gets list of lines
+    \item write() overwrites file content
+    \item 'a' mode appends to files
+    \item Exceptions handle errors gracefully
+    \item try-except catches exceptions
+    \item else runs on successful try
+    \item FileNotFoundError for missing files
+    \item ZeroDivisionError for division by zero
+    \item ValueError for invalid conversions
+    \item pass does nothing in a block
+    \item JSON stores structured data
+\end{itemize} 

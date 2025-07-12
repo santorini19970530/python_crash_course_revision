@@ -1,0 +1,134 @@
+% Chapter 5 Content - if Statements
+% This file contains the content for Chapter 5 based on actual Python files
+
+This document contains the essential keywords and definitions from Chapter 5 of "Python Crash Course" along with their corresponding code examples.
+
+\subsection*{1. if Statement - Conditional Execution}
+\textbf{Definition}: A statement that allows you to examine the current state of a program and respond appropriately.
+
+\lstinputlisting[language=Python, caption=Basic if statements]{Chapter05/501_cars.py}
+
+\subsection*{2. Conditional Test - True/False Check}
+\textbf{Definition}: An expression that can be evaluated as True or False, used to decide whether code should be executed.
+
+\begin{lstlisting}
+car = 'bmw'
+car == 'bmw'  # True
+car == 'audi'  # False
+\end{lstlisting}
+
+\subsection*{3. Equality Operator - ==}
+\textbf{Definition}: An operator that checks if two values are equal, returning True or False.
+
+\begin{lstlisting}
+answer = 42
+if answer == 42:
+    print("Correct!")
+\end{lstlisting}
+
+\subsection*{4. Inequality Operator - !=}
+\textbf{Definition}: An operator that checks if two values are not equal, returning True or False.
+
+\lstinputlisting[language=Python, caption=Inequality testing]{Chapter05/503_magic_number.py}
+
+\subsection*{5. elif Statement - Multiple Conditions}
+\textbf{Definition}: A statement that allows you to check multiple conditions when the first if statement is False.
+
+\begin{lstlisting}
+age = 12
+if age < 4:
+    price = 0
+elif age < 18:
+    price = 5
+else:
+    price = 10
+\end{lstlisting}
+
+\subsection*{6. else Statement - Default Action}
+\textbf{Definition}: A statement that provides a default action when all previous conditions are False.
+
+\begin{lstlisting}
+if age < 4:
+    price = 0
+else:
+    price = 10
+\end{lstlisting}
+
+\subsection*{7. in Operator - Membership Test}
+\textbf{Definition}: An operator that checks if a value exists in a list or other collection.
+
+\lstinputlisting[language=Python, caption=Membership testing]{Chapter05/502_toppings.py}
+
+\subsection*{8. Boolean Values - True/False}
+\textbf{Definition}: Values that represent the truth or falsity of a condition.
+
+\begin{lstlisting}
+game_active = True
+can_edit = False
+\end{lstlisting}
+
+\subsection*{9. and Operator - Multiple Conditions}
+\textbf{Definition}: An operator that returns True only if all conditions are True.
+
+\begin{lstlisting}
+age_0 = 22
+age_1 = 18
+age_0 >= 21 and age_1 >= 21  # False
+\end{lstlisting}
+
+\subsection*{10. or Operator - Alternative Conditions}
+\textbf{Definition}: An operator that returns True if any condition is True.
+
+\begin{lstlisting}
+age_0 = 22
+age_1 = 18
+age_0 >= 21 or age_1 >= 21  # True
+\end{lstlisting}
+
+\subsection*{11. not Operator - Negation}
+\textbf{Definition}: An operator that negates a condition, returning the opposite boolean value.
+
+\begin{lstlisting}
+banned_users = ['andrew', 'carolina', 'david']
+user = 'marie'
+if user not in banned_users:
+    print(f"{user.title()}, you can post a response if you wish.")
+\end{lstlisting}
+
+\section*{Practical Examples from Chapter 5}
+
+\subsection*{Working with Conditional Statements}
+Chapter 5 introduces if statements and conditional logic. Here are the key files:
+
+\textbf{Basic if Statements:}
+\lstinputlisting[language=Python, caption=Chapter05/501\_cars.py]{Chapter05/501_cars.py}
+
+\textbf{Complex Conditional Logic:}
+\lstinputlisting[language=Python, caption=Chapter05/502\_toppings.py]{Chapter05/502_toppings.py}
+
+\textbf{Numerical Comparisons:}
+\lstinputlisting[language=Python, caption=Chapter05/503\_magic\_number.py]{Chapter05/503_magic_number.py}
+
+\textbf{To run these programs:}
+\begin{verbatim}
+python Chapter05/501_cars.py
+python Chapter05/502_toppings.py
+python Chapter05/503_magic_number.py
+\end{verbatim}
+
+\section*{Summary}
+Chapter 5 focuses on if statements and conditional logic. You learn how to make decisions in your programs, test conditions, and execute different code based on the results of those tests.
+
+\section*{Key Takeaways}
+\begin{itemize}
+    \item if statements allow programs to make decisions
+    \item Use == to test for equality, != for inequality
+    \item elif provides additional conditions to test
+    \item else provides a default action
+    \item Use in to test if a value is in a list
+    \item and requires all conditions to be True
+    \item or requires at least one condition to be True
+    \item not negates a condition
+    \item Boolean values are True and False
+    \item Conditional tests can be simple or complex
+\end{itemize} 

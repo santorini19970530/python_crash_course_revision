@@ -1,0 +1,122 @@
+% Chapter 3 Content - Introducing Lists
+% This file contains the content for Chapter 3 based on actual Python files
+
+This document contains the essential keywords and definitions from Chapter 3 of "Python Crash Course" along with their corresponding code examples.
+
+\subsection*{1. List - Collection of Items}
+\textbf{Definition}: A collection of items in a particular order, enclosed in square brackets and separated by commas.
+
+\lstinputlisting[language=Python, caption=Basic list operations]{Chapter03/301_bicycles.py}
+
+\subsection*{2. Index - Position in List}
+\textbf{Definition}: The position of an item in a list, starting from 0 for the first item.
+
+\begin{lstlisting}
+bicycles = ['trek', 'cannondale', 'redline', 'specialized']
+print(bicycles[0])  # trek
+print(bicycles[1])  # cannondale
+\end{lstlisting}
+
+\subsection*{3. Negative Index - Accessing from End}
+\textbf{Definition}: Using negative numbers to access items from the end of a list (-1 is the last item).
+
+\begin{lstlisting}
+bicycles = ['trek', 'cannondale', 'redline', 'specialized']
+print(bicycles[-1])  # specialized
+print(bicycles[-2])  # redline
+\end{lstlisting}
+
+\subsection*{4. Modifying List Elements}
+\textbf{Definition}: Changing the value of an item in a list by using its index.
+
+\lstinputlisting[language=Python, caption=Modifying and manipulating lists]{Chapter03/302_motocycles.py}
+
+\subsection*{5. append() Method - Adding to End}
+\textbf{Definition}: A method that adds an item to the end of a list.
+
+\begin{lstlisting}
+motorcycles = ['honda', 'yamaha', 'suzuki']
+motorcycles.append('ducati')
+print(motorcycles)  # ['honda', 'yamaha', 'suzuki', 'ducati']
+\end{lstlisting}
+
+\subsection*{6. insert() Method - Adding at Position}
+\textbf{Definition}: A method that adds an item at a specific position in a list.
+
+\begin{lstlisting}
+motorcycles = ['honda', 'yamaha', 'suzuki']
+motorcycles.insert(0, 'ducati')
+print(motorcycles)  # ['ducati', 'honda', 'yamaha', 'suzuki']
+\end{lstlisting}
+
+\subsection*{7. del Statement - Removing by Index}
+\textbf{Definition}: A statement that removes an item from a list using its index.
+
+\begin{lstlisting}
+motorcycles = ['honda', 'yamaha', 'suzuki']
+del motorcycles[0]
+print(motorcycles)  # ['yamaha', 'suzuki']
+\end{lstlisting}
+
+\subsection*{8. pop() Method - Removing and Returning}
+\textbf{Definition}: A method that removes the last item from a list and returns it.
+
+\begin{lstlisting}
+motorcycles = ['honda', 'yamaha', 'suzuki']
+popped_motorcycle = motorcycles.pop()
+print(popped_motorcycle)  # suzuki
+print(motorcycles)  # ['honda', 'yamaha']
+\end{lstlisting}
+
+\subsection*{9. remove() Method - Removing by Value}
+\textbf{Definition}: A method that removes an item from a list by its value.
+
+\begin{lstlisting}
+motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
+motorcycles.remove('ducati')
+print(motorcycles)  # ['honda', 'yamaha', 'suzuki']
+\end{lstlisting}
+
+\subsection*{10. Empty List - Starting Fresh}
+\textbf{Definition}: A list with no items, created using empty square brackets.
+
+\begin{lstlisting}
+motorcycles = []
+motorcycles.append('honda')
+motorcycles.append('yamaha')
+print(motorcycles)  # ['honda', 'yamaha']
+\end{lstlisting}
+
+\section*{Practical Examples from Chapter 3}
+
+\subsection*{Working with Lists}
+Chapter 3 introduces lists and their basic operations. Here are the key files:
+
+\textbf{Basic List Operations:}
+\lstinputlisting[language=Python, caption=Chapter03/301\_bicycles.py]{Chapter03/301_bicycles.py}
+
+\textbf{List Modifications:}
+\lstinputlisting[language=Python, caption=Chapter03/302\_motocycles.py]{Chapter03/302_motocycles.py}
+
+\textbf{To run these programs:}
+\begin{verbatim}
+python Chapter03/301_bicycles.py
+python Chapter03/302_motocycles.py
+\end{verbatim}
+
+\section*{Summary}
+Chapter 3 focuses on lists, which are collections of items in a particular order. You learn how to create lists, access items by their position, and modify lists by adding, inserting, and removing items.
+
+\section*{Key Takeaways}
+\begin{itemize}
+    \item Lists store collections of items in a specific order
+    \item Use square brackets to create lists
+    \item Access items using their index (starting from 0)
+    \item Use negative indices to access items from the end
+    \item append() adds items to the end of a list
+    \item insert() adds items at a specific position
+    \item del removes items by index
+    \item pop() removes and returns the last item
+    \item remove() removes items by their value
+    \item Lists can be modified after creation
+\end{itemize} 

@@ -1,0 +1,170 @@
+% Chapter 9 Content - Classes
+% This file contains the content for Chapter 9 based on actual Python files
+
+This document contains the essential keywords and definitions from Chapter 9 of "Python Crash Course" along with their corresponding code examples.
+
+\subsection*{1. Class - Object Blueprint}
+\textbf{Definition}: A blueprint for creating objects, defining what attributes and methods the objects will have.
+
+\lstinputlisting[language=Python, caption=Basic class definition]{Chapter09/901_dog.py}
+
+\subsection*{2. Object - Class Instance}
+\textbf{Definition}: An instance of a class that contains data and behavior defined by the class.
+
+\begin{lstlisting}
+my_dog = Dog('Willie', 6)
+your_dog = Dog('Lucy', 3)
+\end{lstlisting}
+
+\subsection*{3. Attribute - Object Data}
+\textbf{Definition}: A variable that belongs to an object, accessed using dot notation.
+
+\begin{lstlisting}
+print(f"My dog's name is {my_dog.name}.")
+print(f"My dog is {my_dog.age} years old.")
+\end{lstlisting}
+
+\subsection*{4. Method - Object Behavior}
+\textbf{Definition}: A function that belongs to a class, defining what an object can do.
+
+\begin{lstlisting}
+my_dog.sit()
+my_dog.roll_over()
+\end{lstlisting}
+
+\subsection*{5. \_\_init\_\_() Method - Constructor}
+\textbf{Definition}: A special method that Python runs automatically whenever you create a new instance of a class.
+
+\begin{lstlisting}
+def __init__(self, name, age):
+    """Initialize name and age attributes."""
+    self.name = name
+    self.age = age
+\end{lstlisting}
+
+\subsection*{6. self Parameter - Object Reference}
+\textbf{Definition}: A reference to the instance of the class, allowing you to access attributes and methods.
+
+\begin{lstlisting}
+def sit(self):
+    """Simulate a dog sitting in response to a command."""
+    print(f"{self.name} is now sitting.")
+\end{lstlisting}
+
+\subsection*{7. Instance - Class Object}
+\textbf{Definition}: An individual object created from a class, with its own set of attributes.
+
+\begin{lstlisting}
+my_dog = Dog('Willie', 6)  # my_dog is an instance
+your_dog = Dog('Lucy', 3)  # your_dog is another instance
+\end{lstlisting}
+
+\subsection*{8. Inheritance - Class Relationship}
+\textbf{Definition}: A feature that allows you to model relationships between classes, where a child class inherits attributes and methods from a parent class.
+
+\lstinputlisting[language=Python, caption=Inheritance example]{Chapter09/electric_car.py}
+
+\subsection*{9. Parent Class - Base Class}
+\textbf{Definition}: A class that is inherited from, also called a base class or superclass.
+
+\begin{lstlisting}
+class Car:
+    """A simple attempt to represent a car."""
+    def __init__(self, make, model, year):
+        self.make = make
+        self.model = model
+        self.year = year
+\end{lstlisting}
+
+\subsection*{10. Child Class - Derived Class}
+\textbf{Definition}: A class that inherits from another class, also called a derived class or subclass.
+
+\begin{lstlisting}
+class ElectricCar(Car):
+    """Represents aspects of a car, specific to electric vehicles."""
+    def __init__(self, make, model, year):
+        super().__init__(make, model, year)
+\end{lstlisting}
+
+\subsection*{11. super() Function - Parent Access}
+\textbf{Definition}: A function that helps you make connections between parent and child classes.
+
+\begin{lstlisting}
+def __init__(self, make, model, year):
+    super().__init__(make, model, year)
+    self.battery = Battery()
+\end{lstlisting}
+
+\subsection*{12. Method Overriding - Custom Behavior}
+\textbf{Definition}: The ability to define a method in a child class that has the same name as a method in the parent class.
+
+\begin{lstlisting}
+def fill_gas_tank(self):
+    """Electric cars don't have gas tanks."""
+    print("This car doesn't need a gas tank!")
+\end{lstlisting}
+
+\subsection*{13. Instance as Attribute - Object Composition}
+\textbf{Definition}: Using an instance of one class as an attribute in another class.
+
+\begin{lstlisting}
+class Battery:
+    def __init__(self, battery_size=75):
+        self.battery_size = battery_size
+
+class ElectricCar(Car):
+    def __init__(self, make, model, year):
+        super().__init__(make, model, year)
+        self.battery = Battery()  # Instance as attribute
+\end{lstlisting}
+
+\subsection*{14. Importing Classes - Module Usage}
+\textbf{Definition}: Bringing classes from one module into another module for use.
+
+\begin{lstlisting}
+from car import Car
+from electric_car import ElectricCar
+
+my_tesla = ElectricCar('tesla', 'model s', 2019)
+\end{lstlisting}
+
+\section*{Practical Examples from Chapter 9}
+
+\subsection*{Working with Classes}
+Chapter 9 introduces object-oriented programming with classes. Here are the key files:
+
+\textbf{Basic Class Definition:}
+\lstinputlisting[language=Python, caption=Chapter09/901\_dog.py]{Chapter09/901_dog.py}
+
+\textbf{Advanced Class with Methods:}
+\lstinputlisting[language=Python, caption=Chapter09/902\_car.py]{Chapter09/902_car.py}
+
+\textbf{Inheritance and Class Relationships:}
+\lstinputlisting[language=Python, caption=Chapter09/electric\_car.py]{Chapter09/electric_car.py}
+
+\textbf{To run these programs:}
+\begin{verbatim}
+python Chapter09/901_dog.py
+python Chapter09/902_car.py
+python Chapter09/electric_car.py
+\end{verbatim}
+
+\section*{Summary}
+Chapter 9 focuses on classes and object-oriented programming. You learn how to create classes, define attributes and methods, create instances, and use inheritance to model relationships between classes.
+
+\section*{Key Takeaways}
+\begin{itemize}
+    \item Classes are blueprints for creating objects
+    \item Objects are instances of classes
+    \item Attributes store data in objects
+    \item Methods define behavior of objects
+    \item \_\_init\_\_() initializes new instances
+    \item self refers to the current instance
+    \item Inheritance creates class relationships
+    \item Child classes inherit from parent classes
+    \item super() calls parent class methods
+    \item Method overriding customizes behavior
+    \item Objects can contain other objects
+    \item Import classes to use them in other modules
+    \item Classes help organize and structure code
+\end{itemize} 
