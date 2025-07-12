@@ -8,6 +8,7 @@ ehthumbs.db
 Thumbs.db
 
 # LaTeX files and temporary files
+generate_chapter_content.py
 *.tex
 *.aux
 *.bbl
