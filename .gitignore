@@ -7,7 +7,8 @@
 ehthumbs.db
 Thumbs.db
 
-# LaTeX temporary files
+# LaTeX files and temporary files
+*.tex
 *.aux
 *.bbl
 *.blg
