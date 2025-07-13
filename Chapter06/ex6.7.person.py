@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 members = []
 
 countMember = 0

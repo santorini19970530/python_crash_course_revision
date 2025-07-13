@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 admin = ['sowon', 'yerin', 'eunha']
 users = ['sowon', 'yerin', 'eunha', 'yuju', 'sinb', 'umji']
 walk_in_users = ['eunso', 'yeorum', 'IU', 'sana', 'eunha', 'sinb']

@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 from users import *
 
 sowon = users('sowon', 'kim', 'F', '1234567')

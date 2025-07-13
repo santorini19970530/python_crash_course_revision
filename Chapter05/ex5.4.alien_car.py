@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 alien_car = ['green', 'yellow', 'red']
 awards = [5, 10, 10]
 

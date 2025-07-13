@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 albums = []
 
 def make_album (album_name, artist):

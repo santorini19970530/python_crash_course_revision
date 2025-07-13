@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 favourite_languages = {
     'jen' : 'python',
         'sarah' : 'c',

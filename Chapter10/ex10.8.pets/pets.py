@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 pet_files = ['cats.txt', 'dogs.txt', 'mice.txt']
 
 def print_pet(filename):

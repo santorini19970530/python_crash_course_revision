@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 import csv
 import matplotlib.pyplot as plt
 from datetime import datetime

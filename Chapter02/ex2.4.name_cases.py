@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 # name_cases.py -- print out names in lowercase, uppercase and title case
 
 name = "jung eunbi"

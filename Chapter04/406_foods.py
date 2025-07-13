@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 my_foods = ['pizza', 'falafel', 'carrpt cake']
 friend_foods = my_foods[:]
 # all of the items in the list

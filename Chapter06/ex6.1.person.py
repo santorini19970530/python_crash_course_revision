@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 person = {
     'first_name' : 'eunbi',
     'last_name' : 'jung',

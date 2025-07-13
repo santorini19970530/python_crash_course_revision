@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 # update_dinner.py -- some of the members cannot come to dinner, so invite again them to the my dinner
 
 invitation = ", would you join my dinner tonight?"

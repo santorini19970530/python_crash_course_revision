@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 class Settings:
     """A class to store all settings for Alien Invasion."""
 

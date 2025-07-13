@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 def make_shirt(size = 'M', message = 'Wie heißen Sie?'):
     print(f"We will make {size} T-shirt with a slogen of \"{message}.\"\n")
 

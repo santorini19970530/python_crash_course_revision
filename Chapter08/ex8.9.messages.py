@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 messages = [
 "A: Puh. Wie es hier aussieht!\nWo ist das Telefon?\nVielleicht in der Küche?",
 "B: Nein. Hier ist kein Telefon!\nAber hier ist eine Uhr!",

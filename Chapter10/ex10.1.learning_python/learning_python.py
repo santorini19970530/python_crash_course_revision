@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 filename = 'learning_python.txt'
 
 # first time : print the contents once by reading in the entire file.

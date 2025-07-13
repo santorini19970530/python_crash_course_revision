@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 unconfirmed_users = ['alice', 'brian', 'candace']
 confirmed_users = []
 

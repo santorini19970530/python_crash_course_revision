@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 from die import Die
 from plotly import offline
 from plotly.graph_objs import Bar, Layout

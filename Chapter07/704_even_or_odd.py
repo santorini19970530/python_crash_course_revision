@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 number = input("Enter a number, and I'll tell you if it's eve or odd: ")
 number = int(number)
 

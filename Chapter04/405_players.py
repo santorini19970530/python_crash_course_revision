@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 players = ['charles', 'martina', 'michael', 'florence', 'eli']
 print(players[0:3])
 

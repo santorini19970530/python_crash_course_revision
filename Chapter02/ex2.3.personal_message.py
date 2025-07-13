@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 # personal_message.py -- print out personal message
 
 name = "Eunbi"

@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 def build_person(first_name, last_name, age=None):
     """ Return a dictionary of information about a person."""
     person = {

@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 favourite_numbers = {
     'sowon' : [1, 3, 4, 8],
     'yerin' : [2, 6, 9],

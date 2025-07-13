@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 import json
 from plotly.graph_objs import Scattergeo, Layout
 from plotly import offline

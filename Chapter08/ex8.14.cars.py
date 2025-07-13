@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 cars = []
 
 def make_car(manufacturer, model, **car):

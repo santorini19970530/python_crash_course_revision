@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 from read_data import get_fav_num
 from write_data import record_fav_num
 

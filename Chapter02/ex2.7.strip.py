@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 # strip.py -- manipulating string with strip functions.
 
 name = " Jung Eun Bi "

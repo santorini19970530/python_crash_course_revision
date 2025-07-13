@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 from name_function_wrong import get_formatted_name
 
 print("Enter 'q' at any time to quit.")

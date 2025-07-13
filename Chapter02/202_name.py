@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 name = "ada lovelace"
 print(name.title())
 # title() is method of the string 'name'

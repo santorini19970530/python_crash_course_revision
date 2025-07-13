@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 def describe_pet (animal_type, pet_name):
     """Display information about a pet."""
     print(f"\nI have a {animal_type}.")

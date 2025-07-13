@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 import unittest
 from name_function_wrong import get_formatted_name
 

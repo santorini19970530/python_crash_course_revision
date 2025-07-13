@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 # dinner.py -- invite members to the my dinner
 
 invitation = ", would you join my dinner tonight?"

@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 ### class String_of_number :  simulates a string of seven numbers ###
 
 class String_of_number():

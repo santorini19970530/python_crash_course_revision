@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 class Restaurant:
 ### Description of the class ###
 # attributes

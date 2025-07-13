@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 countries = ["Deutsch", "日本", "Great Britain", "台灣"]
 
 print(f"Countries I want to go: {countries}.")

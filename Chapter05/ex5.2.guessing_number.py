@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 # guess_number.py
 # system randomally define a number between 1 and 100
 # let user guess the number

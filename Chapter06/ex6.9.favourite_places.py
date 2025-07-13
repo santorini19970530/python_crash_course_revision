@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 favourite_places = {
     "steven" : ['tokyo', 'pusan', 'yokohama'],
     "apple" : ['new york', 'london'],

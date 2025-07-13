@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 """A class that can be used to represent a car."""
 
 class Car:

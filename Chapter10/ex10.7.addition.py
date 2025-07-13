@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 while True:
     x = input("Enter the first number (or enter \'q\' to quit) >> ")
     if x.lower() == 'q':

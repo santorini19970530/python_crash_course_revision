@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 favourite_number = {
     'sowon' : 1,
     'yerin' : 2,

@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 # class number : simulate the number and include a count attribute of being selected
 
 class number():

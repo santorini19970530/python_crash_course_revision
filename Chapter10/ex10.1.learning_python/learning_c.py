@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 filename = 'learning_python.txt'
 
 with open(filename) as file_object:

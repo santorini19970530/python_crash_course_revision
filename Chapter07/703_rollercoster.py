@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 height = input("How tall are you, in inches? ")
 height = int(height)
 

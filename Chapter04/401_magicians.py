@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 magicians = ['alice', 'david', 'carolina']
 
 for magician in magicians:

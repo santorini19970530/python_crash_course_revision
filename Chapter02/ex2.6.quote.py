@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 # quote.py -- print out some great persons the his / her quote
 
 person = "Jung Eun Bi"

@@ -116,3 +116,6 @@ pcc_2e-master/
 
 # Workspace files
 *.code-workspace
+
+# Extracted book content
+python_crash_course_text.txt

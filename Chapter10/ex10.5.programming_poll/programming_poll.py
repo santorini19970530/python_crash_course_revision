@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 filename = 'programming_poll.txt'
 
 with open(filename, 'w') as file_object:

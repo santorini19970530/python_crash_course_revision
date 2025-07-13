@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 sandwich_orders = ['hamburger', 'club sandwich', 'doner sandwich', 'chicken breast sandwich', 'porilainen', 'pastrami a', 'pastrami b', 'pastrami c']
 finished_orders = []
 

@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 # gfriend.py -- list out the name of your friends
 
 print(gfriend[0])

@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 cars = ['bmw', 'audi', 'cars', 'toyota', 'subaru']
 print(cars)
 cars.sort()

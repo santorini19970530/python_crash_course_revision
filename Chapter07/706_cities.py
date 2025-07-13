@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 prompt = "\nPlease enter the name of a city you have visited: "
 prompt += "\n(Enter 'quit' when you are finished.) "
 

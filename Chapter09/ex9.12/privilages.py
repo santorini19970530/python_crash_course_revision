@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 class privileges():
     
     # __init__ : initialize the class

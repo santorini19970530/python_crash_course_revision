@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 transportation = ["bus", "bike", "motorcycle", "foot", "van", "train"]
 brandName = ["Honda", "BMW", "Toyota"]
 

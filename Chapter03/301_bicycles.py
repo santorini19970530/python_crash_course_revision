@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 bicycles = ['trek', 'cannondale', 'redline',  'specialized']
 print(bicycles)
 

@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 foods = ('pizza', 'falafel', 'carrpt cake', 'sushi', 'ice cream')
 
 print("Food in a buffet:")

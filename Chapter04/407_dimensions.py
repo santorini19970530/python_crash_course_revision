@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 dimensions = (300, 50)
 print(dimensions[0])
 print(dimensions[1])

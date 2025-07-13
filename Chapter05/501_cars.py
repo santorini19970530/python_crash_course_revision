@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 cars = ['audi', 'bmw', 'subaru', 'toyota']
 
 for car in cars:

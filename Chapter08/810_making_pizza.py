@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 import pizzaImport
 # another importing method
 # from pizzaImport import make_pizza (as Alias) / *

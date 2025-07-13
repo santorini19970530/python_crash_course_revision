@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 alien_0 = {
         'color' : 'green',
         'speed' : 'slow'

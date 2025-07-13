@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 """A set of classes used to represent gas and electric car."""
 
 from car import Car

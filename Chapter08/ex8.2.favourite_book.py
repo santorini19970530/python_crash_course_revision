@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 def favourite_book(title):
     print(f"One of my favourite books is {title.title()}.")
 

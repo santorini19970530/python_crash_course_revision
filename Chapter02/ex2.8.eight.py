@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 # eight.py -- print results of four calculations that can result in eight
 
 print(7+1)  # integer mix integer gererates integer

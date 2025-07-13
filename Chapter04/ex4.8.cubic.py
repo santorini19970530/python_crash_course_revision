@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 cube = []
 
 for number in list(range(1, 11)):

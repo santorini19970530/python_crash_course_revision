@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 users = {
         'aeinstein':{
             'first' : 'albert',

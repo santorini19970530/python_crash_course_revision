@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 # greetings.py -- say greetings to each of the members
 
 greeting = ", guten Tag!"

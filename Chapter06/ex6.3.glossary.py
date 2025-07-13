@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 glossary = {
     'die Adresse' : "address",
     'die Webseite' : "website"

@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 age = input("Input your age: ")
 
 if age < 2:

@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 class users:
     def __init__(self, first_name, last_name, gender, staff_no):
         self.first_name = first_name

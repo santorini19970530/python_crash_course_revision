@@ -1,3 +1,5 @@
+# Python Crash Course, 2Ed, writtern by Eric Matthes
+
 number = int(input("Enter a number: "))
 
 if number % 10 == 0:
