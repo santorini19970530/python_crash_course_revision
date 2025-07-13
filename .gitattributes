@@ -1,7 +1,14 @@
+# Explicitly classify file types for GitHub language detection
 *.py linguist-language=Python
-*.html linguist-language=HTML
-*.tex linguist-language=TeX
-*.md linguist-language=Markdown
+*.txt linguist-language=Text
 *.json linguist-language=JSON
-*.csv linguist-language=CSV
-*.txt linguist-language=Text 
+*.html linguist-language=HTML
+*.bmp linguist-vendored
+*.md linguist-language=Markdown
+
+# Ensure these are treated as text files
+*.txt linguist-detectable=true
+*.json linguist-detectable=true
+
+# Mark certain directories as vendored (not counted in language stats)
+pcc_2e-master/* linguist-vendored 
