@@ -4,6 +4,7 @@
 
 print(gfriend[0])
 gfriend = ['sowon', 'yerin', 'eunha', 'yuju', 'sinb', 'umji']
+
 print(gfriend[0])
 print(gfriend[1])
 print(gfriend[2])

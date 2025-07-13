@@ -1,6 +1,6 @@
 # Python Crash Course, 2Ed, writtern by Eric Matthes
 
-countries = ["Deutsch", "日本", "Great Britain", "台灣"]
+countries = ["Deutsch", "Japan", "Great Britain", "Taiwan"]
 
 print(f"Countries I want to go: {countries}.")
 
