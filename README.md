@@ -28,6 +28,19 @@ Multiple data visualization projects including:
 - **Weather/** - Weather data analysis
 - **Working_API/** - API integration examples
 
+### [Project 3 - Learning Log Web Application](Project3/)
+
+A complete web application built with Django, demonstrating:
+
+- **Web development** with Django framework
+- **Database design** and models
+- **User authentication** and authorization
+- **Form handling** and data validation
+- **Template system** and frontend design
+- **Deployment** and hosting considerations
+- **RESTful API** development
+- **Security best practices** for web applications
+
 ## 📋 How to Use This Repository
 
 1. **Navigate to any chapter folder** to see the Python examples
