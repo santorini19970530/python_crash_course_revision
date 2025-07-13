@@ -112,4 +112,7 @@ pcc_2e-master/
 
 # Temporary files
 *.tmp
-*.temp 
+*.temp
+
+# Workspace files
+*.code-workspace
