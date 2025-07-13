@@ -1,0 +1,7 @@
+*.py linguist-language=Python
+*.html linguist-language=HTML
+*.tex linguist-language=TeX
+*.md linguist-language=Markdown
+*.json linguist-language=JSON
+*.csv linguist-language=CSV
+*.txt linguist-language=Text 
