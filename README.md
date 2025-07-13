@@ -6,8 +6,6 @@ This repository contains my learning journey through "Python Crash Course" by Er
 
 This repository serves as a comprehensive collection of Python examples and exercises from the Python Crash Course book. Each chapter is organized into its own folder with multiple Python files demonstrating various concepts.
 
-
-
 ## 🚀 Projects
 
 ### [Project 1 - Alien Invasion Game](Project1/)
@@ -70,5 +68,3 @@ This repository covers:
 ---
 
 _This repository represents a comprehensive learning journey through Python programming fundamentals and practical applications._
-# Force GitHub language detection update
-# Force GitHub language detection refresh
