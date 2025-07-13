@@ -11,4 +11,11 @@
 *.json linguist-detectable=true
 
 # Mark certain directories as vendored (not counted in language stats)
-pcc_2e-master/* linguist-vendored 
+pcc_2e-master/* linguist-vendored
+
+# Mark binary files as vendored
+*.bmp linguist-vendored
+
+# Only Python files should be counted for language detection
+*.py linguist-detectable=true
+*.py linguist-language=Python 
