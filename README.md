@@ -6,6 +6,20 @@ This repository contains my learning journey through "Python Crash Course" by Er
 
 This repository serves as a comprehensive collection of Python examples and exercises from the Python Crash Course book. Each chapter is organized into its own folder with multiple Python files demonstrating various concepts.
 
+## 📖 Chapter Notes
+
+- [Chapter 1: Getting Started](chapter01.md) - Setting up your programming environment and running your first Python program
+- [Chapter 2: Variables and Simple Data Types](chapter02.md) - Working with variables, strings, and numbers
+- [Chapter 3: Introducing Lists](chapter03.md) - Creating and manipulating lists
+- [Chapter 4: Working with Lists](chapter04.md) - Looping through lists and working with list slices
+- [Chapter 5: if Statements](chapter05.md) - Making decisions with conditional tests and if statements
+- [Chapter 6: Dictionaries](chapter06.md) - Working with key-value pairs and dictionary operations
+- [Chapter 7: User Input and while Loops](chapter07.md) - Getting user input and using while loops
+- [Chapter 8: Functions](chapter08.md) - Defining and using functions with various parameter types
+- [Chapter 9: Classes](chapter09.md) - Object-oriented programming with classes and inheritance
+- [Chapter 10: Files and Exceptions](chapter10.md) - File handling and exception management
+- [Chapter 11: Testing Your Code](chapter11.md) - Writing and running tests with unittest framework
+
 ## 🚀 Projects
 
 ### [Project 1 - Alien Invasion Game](Project1/)
