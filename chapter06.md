@@ -4,6 +4,13 @@
 
 **Definition**: A collection of key-value pairs that allows you to connect pieces of related information.
 
+**Key Points**:
+- Use curly braces `{}` to create dictionaries
+- Keys must be immutable (strings, numbers, tuples)
+- Values can be any data type
+- Access values using square brackets: `dict['key']`
+
+**Example**:
 ```python
 # Basic dictionary operations
 alien_0 = {'color': 'green', 'points': 5}
@@ -21,7 +28,7 @@ alien_0['y_position'] = 25
 print(alien_0)
 ```
 
-**Exercise 6.1 - Person Information:**
+**Exercise 6.1 - Person Information**:
 ```python
 # Exercise 6.1: Creating a person dictionary
 person = {
@@ -38,11 +45,17 @@ print(f"I am going to talk about my wife:\nHer name is {person['last_name'].titl
 
 **Definition**: A set of values associated with each other, where a key is used to access its associated value.
 
+**Key Points**:
+- Each key-value pair is separated by a colon `:`
+- Pairs are separated by commas
+- Keys must be unique within a dictionary
+
+**Example**:
 ```python
 alien_0 = {'color': 'green', 'points': 5}
 ```
 
-**Exercise 6.2 - Favorite Numbers:**
+**Exercise 6.2 - Favorite Numbers**:
 ```python
 # Exercise 6.2: Storing favorite numbers
 favourite_number = {
@@ -66,12 +79,18 @@ print(f"Umji's favourite number is {favourite_number['umji']}.")
 
 **Definition**: The process of retrieving a value from a dictionary using its key.
 
+**Key Points**:
+- Use square brackets with key name: `dict['key']`
+- Raises KeyError if key doesn't exist
+- Use `.get()` method for safe access with default value
+
+**Example**:
 ```python
 alien_0 = {'color': 'green', 'points': 5}
 print(alien_0['color'])  # 'green'
 ```
 
-**Exercise 6.3 - Glossary:**
+**Exercise 6.3 - Glossary**:
 ```python
 # Exercise 6.3: Accessing dictionary values
 glossary = {
@@ -87,6 +106,12 @@ print(f"'die Webseite' means {glossary['die Webseite'].title()}.")
 
 **Definition**: The process of adding new key-value pairs to an existing dictionary.
 
+**Key Points**:
+- Assign to a new key to add pairs
+- Syntax: `dict['new_key'] = value`
+- Keys are case-sensitive
+
+**Example**:
 ```python
 alien_0 = {'color': 'green', 'points': 5}
 alien_0['x_position'] = 0
@@ -97,6 +122,12 @@ alien_0['y_position'] = 25
 
 **Definition**: Creating a dictionary with no key-value pairs and adding them as needed.
 
+**Key Points**:
+- Use empty braces `{}`
+- Add pairs one by one
+- Useful for building dictionaries dynamically
+
+**Example**:
 ```python
 alien_0 = {}
 alien_0['color'] = 'green'
@@ -107,6 +138,12 @@ alien_0['points'] = 5
 
 **Definition**: Changing the value associated with a key in a dictionary.
 
+**Key Points**:
+- Assign to existing key to modify
+- Overwrites the previous value
+- No special method needed
+
+**Example**:
 ```python
 alien_0 = {'color': 'green', 'points': 5}
 alien_0['color'] = 'yellow'
@@ -116,6 +153,12 @@ alien_0['color'] = 'yellow'
 
 **Definition**: Permanently removing a key-value pair from a dictionary using the del statement.
 
+**Key Points**:
+- Use `del dict['key']` syntax
+- Permanently removes the pair
+- Raises KeyError if key doesn't exist
+
+**Example**:
 ```python
 alien_0 = {'color': 'green', 'points': 5}
 del alien_0['points']
@@ -125,6 +168,12 @@ del alien_0['points']
 
 **Definition**: Iterating through all key-value pairs in a dictionary.
 
+**Key Points**:
+- Use `.items()` method to get key-value pairs
+- Returns tuples of (key, value)
+- Can unpack directly in for loop
+
+**Example**:
 ```python
 # Looping through dictionaries
 favourite_languages = {
@@ -182,6 +231,12 @@ for country in rivers.values():
 
 **Definition**: Iterating through all keys in a dictionary.
 
+**Key Points**:
+- Use `.keys()` method to get all keys
+- Default behavior when looping through dict
+- Can omit `.keys()` - just loop through dict directly
+
+**Example**:
 ```python
 favourite_languages = {'jen': 'python', 'sarah': 'c'}
 for name in favourite_languages.keys():
@@ -194,6 +249,12 @@ for name in favourite_languages.keys():
 
 **Definition**: Iterating through all values in a dictionary.
 
+**Key Points**:
+- Use `.values()` method to get all values
+- Returns only the values, not keys
+- Use `set()` to get unique values
+
+**Example**:
 ```python
 favourite_languages = {'jen': 'python', 'sarah': 'c'}
 for language in favourite_languages.values():
@@ -228,6 +289,13 @@ for person in people:
 
 **Definition**: Storing multiple dictionaries in a list, or a list of items as a value in a dictionary.
 
+**Key Points**:
+- Lists can contain dictionaries
+- Dictionaries can contain lists
+- Dictionaries can contain other dictionaries
+- Allows complex data structures
+
+**Example**:
 ```python
 aliens = []
 for alien_number in range(30):
@@ -405,22 +473,26 @@ for city, information in cities.items():
 
 ## Key Takeaways
 
-- Dictionaries store key-value pairs using curly braces `{}`
+**Dictionary Basics**:
+- Use curly braces `{}` to create dictionaries
 - Keys must be immutable (strings, numbers, tuples)
-- Values can be any data type (strings, numbers, lists, dictionaries)
-- Use square brackets to access values by key: `dict['key']`
-- Add new key-value pairs by assigning to a new key
-- Modify values by assigning to an existing key
-- Use `del` statement to remove key-value pairs permanently
-- Loop through all key-value pairs with `.items()` method
-- Loop through keys with `.keys()` method (default behavior when looping)
-- Loop through values with `.values()` method
-- Use `set()` to get unique values from `.values()`
-- Check if key exists with `in` operator: `'key' in dict`
-- Use `.get()` method for safe key access with default value
-- Dictionaries can store lists and other dictionaries as values
-- Nesting allows complex data structures (lists of dicts, dicts of dicts)
-- Dictionary keys are case-sensitive
-- Dictionary order is preserved (Python 3.7+)
-- Use `.copy()` to create a shallow copy of a dictionary
-- Use `dict()` constructor to create dictionaries from other sequences 
+- Values can be any data type
+- Keys are case-sensitive and must be unique
+
+**Accessing and Modifying**:
+- Use square brackets: `dict['key']` to access values
+- Assign to keys to add/modify: `dict['key'] = value`
+- Use `del dict['key']` to remove pairs
+- Use `.get()` method for safe access with defaults
+
+**Looping Methods**:
+- `.items()` - loop through key-value pairs
+- `.keys()` - loop through keys (default behavior)
+- `.values()` - loop through values
+- Use `set()` to get unique values
+
+**Advanced Features**:
+- Check membership: `'key' in dict`
+- Nesting: lists in dicts, dicts in dicts
+- Order preserved (Python 3.7+)
+- Use `.copy()` for shallow copies 

@@ -4,6 +4,13 @@
 
 **Definition**: A named block of code that performs a specific task and can be called from other parts of your program.
 
+**Key Points**:
+- Use `def` keyword to define functions
+- Functions are reusable code blocks
+- Use docstrings for documentation
+- Call functions with parentheses `()`
+
+**Example**:
 ```python
 # Basic function definition
 def greet_user():
@@ -409,17 +416,22 @@ make_pizza('mushrooms', 'green peppers', 'extra cheese')
 
 ## Key Takeaways
 
-- Functions are reusable blocks of code
-- Use `def` to define a function
+**Function Basics**:
+- Use `def` to define functions
+- Functions are reusable code blocks
+- Use docstrings for documentation
+- `return` sends values back to caller
+
+**Parameters and Arguments**:
 - Parameters receive information in functions
 - Arguments provide information to functions
-- `return` sends a value back to the calling line
 - Default parameters make arguments optional
 - Positional arguments must be in correct order
 - Keyword arguments can be in any order
+
+**Advanced Features**:
 - `*args` accepts any number of arguments
 - `**kwargs` accepts any number of keyword arguments
-- Docstrings document what functions do
 - Modules organize code into files
 - `import` makes modules available
 - `from...import` brings specific functions 

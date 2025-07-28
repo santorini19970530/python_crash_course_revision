@@ -4,6 +4,13 @@
 
 **Definition**: A blueprint for creating objects, defining what attributes and methods the objects will have.
 
+**Key Points**:
+- Use `class` keyword to define classes
+- Classes are blueprints for objects
+- Objects are instances of classes
+- Use `self` to refer to the current instance
+
+**Example**:
 ```python
 # Basic class definition
 class Dog:
@@ -621,16 +628,23 @@ my_tesla.battery.get_range()
 
 ## Key Takeaways
 
+**Class Basics**:
 - Classes are blueprints for creating objects
 - Objects are instances of classes
 - Attributes store data in objects
 - Methods define behavior of objects
+
+**Special Methods**:
 - `__init__()` initializes new instances
 - `self` refers to the current instance
+- Use `super()` to call parent class methods
+
+**Inheritance**:
 - Inheritance creates class relationships
 - Child classes inherit from parent classes
-- `super()` calls parent class methods
 - Method overriding customizes behavior
 - Objects can contain other objects
+
+**Organization**:
 - Import classes to use them in other modules
 - Classes help organize and structure code 

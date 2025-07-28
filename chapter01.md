@@ -2,45 +2,66 @@
 
 ## Introduction
 
-In this chapter, you'll run your first Python program and learn how to set up your programming environment. You'll install Python on your system if it isn't already there, and you'll install a text editor to make it easier to write Python code.
+**Key Points**:
+- Run your first Python program
+- Set up your programming environment
+- Install Python if needed
+- Install a text editor for writing code
 
 ## What Really Happens When You Run hello_world.py
 
-Let's take a closer look at what Python does when you run hello_world.py. As it turns out, Python does a fair amount of work, even when it runs a simple program:
+**Key Points**:
+- `.py` extension indicates Python program
+- Python interpreter reads and processes code
+- Syntax highlighting helps identify code elements
+- Interpreter determines meaning of each word
 
+**First Program**:
 ```python
 print("Hello Python world!")
 ```
 
-When you run this code, you should see this output:
+**Output**:
 ```
 Hello Python world!
 ```
 
-When you run the file hello_world.py, the ending .py indicates that the file is a Python program. Your editor then runs the file through the Python interpreter, which reads through the program and determines what each word in the program means. For example, when the interpreter sees the word print followed by parentheses, it prints to the screen whatever is inside the parentheses.
-
-As you write your programs, your editor highlights different parts of your program in different ways. For example, it recognizes that print() is the name of a function and displays that word in one color. It recognizes that "Hello Python world!" is not Python code and displays that phrase in a different color. This feature is called syntax highlighting and is quite useful as you start to write your own programs.
+**How it Works**:
+- Editor runs file through Python interpreter
+- Interpreter reads program line by line
+- `print()` function displays text to screen
+- Syntax highlighting shows different code elements
 
 ## Setting Up Your Programming Environment
 
+**Key Points**:
+- Python is cross-platform (runs on all major OS)
+- Setup varies by operating system
+- Check if Python is installed first
+- Install text editor (Sublime Text recommended)
+
 ### Python on Different Operating Systems
 
-Python is a cross-platform programming language, which means it runs on all the major operating systems. Any Python program you write should run on any modern computer that has Python installed. However, the methods for setting up Python on different operating systems vary slightly.
-
-In this section, you'll learn how to set up Python on your system. You'll first check whether a recent version of Python is installed on your system and install it if it's not. Then you'll install Sublime Text. These are the only two steps that are different for each operating system.
+**Key Points**:
+- Python runs on Windows, macOS, and Linux
+- Programs work on any system with Python
+- Setup methods vary by OS
+- Two main steps: install Python, install text editor
 
 ### Python on Windows
 
-Windows doesn't always come with Python, so you'll probably need to install it, and then install Sublime Text.
+**Key Points**:
+- Windows doesn't come with Python by default
+- Need to install Python manually
+- Install Sublime Text for editing
 
-**Installing Python:**
-1. Check whether Python is installed on your system by opening a command window
-2. Enter `python` in lowercase
-3. If you get a Python prompt (>>>), Python is installed
-4. If you see an error message, download Python from https://python.org/
-5. Make sure to select "Add Python to PATH" during installation
+**Installing Python**:
+1. Open command window
+2. Type `python` to check if installed
+3. If error, download from https://python.org/
+4. Select "Add Python to PATH" during installation
 
-**Running Python in a Terminal Session:**
+**Running Python**:
 ```bash
 C:\> python
 Python 3.7.2 (v3.7.2:9a3ffc0492, Dec 23 2018, 23:09:28) [MSC v.1916 64 bit (AMD64)] on win32
@@ -48,39 +69,39 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
 
-**Installing Sublime Text:**
-Download from https://sublimetext.com/ and run the installer.
+**Installing Sublime Text**:
+- Download from https://sublimetext.com/
+- Run the installer
 
 ### Python on macOS
 
-Python is already installed on most macOS systems, but it's most likely an outdated version.
+**Key Points**:
+- Python comes pre-installed but may be outdated
+- Check for Python 3 specifically
+- Install latest version if needed
 
-**Checking Whether Python 3 Is Installed:**
-```bash
-$ python
-Python 2.7.15 (default, Aug 17 2018, 22:39:05)
-[GCC 4.2.1 Compatible Apple LLVM 9.1.0 (clang-902.0.39.2)] on darwin
-Type "help", "copyright", "credits", or "license" for more information.
->>>
-```
-
-To check for Python 3, use:
+**Checking Python 3**:
 ```bash
 $ python3 --version
 Python 3.7.2
 ```
 
-**Installing the Latest Version of Python:**
-Download from https://python.org/ and run the installer.
+**Installing Python**:
+- Download from https://python.org/
+- Run the installer
 
-**Installing Sublime Text:**
-Download from https://sublimetext.com/ and drag to Applications folder.
+**Installing Sublime Text**:
+- Download from https://sublimetext.com/
+- Drag to Applications folder
 
 ### Python on Linux
 
-Linux systems are designed for programming, so Python is already installed on most Linux computers.
+**Key Points**:
+- Python usually pre-installed on Linux
+- Designed for programming
+- Use `python3` command
 
-**Checking Your Version of Python:**
+**Checking Python**:
 ```bash
 $ python3
 Python 3.7.2 (default, Dec 27 2018, 04:01:51)
@@ -89,8 +110,9 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
 
-**Installing Sublime Text:**
-Install from Ubuntu Software Center or equivalent.
+**Installing Sublime Text**:
+- Install from Ubuntu Software Center
+- Or use package manager
 
 ## Running a Hello World Program
 
@@ -168,4 +190,29 @@ The exercises in this chapter are exploratory in nature. Starting in Chapter 2, 
 
 In this chapter, you learned a bit about Python in general, and you installed Python on your system if it wasn't already there. You also installed a text editor to make it easier to write Python code. You ran snippets of Python code in a terminal session, and you ran your first program, hello_world.py. You probably learned a bit about troubleshooting as well.
 
-In the next chapter, you'll learn about the different kinds of data you can work with in your Python programs, and you'll use variables as well. 
+In the next chapter, you'll learn about the different kinds of data you can work with in your Python programs, and you'll use variables as well.
+
+## Key Takeaways
+
+**Getting Started**:
+- Install Python on your system
+- Install a text editor (Sublime Text recommended)
+- Create your first Python program
+- Learn to run programs from terminal
+
+**Python Installation**:
+- **Windows**: Download from python.org, add to PATH
+- **macOS**: Check for Python 3, install if needed
+- **Linux**: Usually pre-installed, use `python3` command
+
+**First Program**:
+- Use `.py` extension for Python files
+- `print()` function displays text
+- Run with `python filename.py`
+- Syntax highlighting helps identify code
+
+**Troubleshooting**:
+- Check error messages carefully
+- Verify Python installation
+- Use correct file extensions
+- Ask for help when needed 

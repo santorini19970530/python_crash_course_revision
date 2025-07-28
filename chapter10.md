@@ -4,6 +4,13 @@
 
 **Definition**: A collection of information stored as a unit on a computer, accessible by programs.
 
+**Key Points**:
+- Files store data persistently
+- Use `open()` to access files
+- Use `with` statement for proper file handling
+- Files are automatically closed with `with`
+
+**Example**:
 ```python
 filename = 'pi_digits.txt'
 with open(filename) as file_object:
@@ -445,6 +452,7 @@ else:
 
 ## Key Takeaways
 
+**File Operations**:
 - Files store data persistently
 - `open()` creates file objects
 - `with` ensures proper file closing
@@ -452,6 +460,8 @@ else:
 - `readlines()` gets list of lines
 - `write()` overwrites file content
 - `'a'` mode appends to files
+
+**Exception Handling**:
 - Exceptions handle errors gracefully
 - `try-except` catches exceptions
 - `else` runs on successful try
@@ -459,4 +469,6 @@ else:
 - `ZeroDivisionError` for division by zero
 - `ValueError` for invalid conversions
 - `pass` does nothing in a block
+
+**Data Formats**:
 - JSON stores structured data 

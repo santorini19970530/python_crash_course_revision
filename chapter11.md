@@ -4,6 +4,13 @@
 
 **Definition**: A piece of code that verifies that another piece of code works correctly.
 
+**Key Points**:
+- Tests verify code works correctly
+- Write tests before fixing bugs
+- Tests help prevent regressions
+- Use `unittest` framework for testing
+
+**Example**:
 ```python
 def test_first_last_name():
     """Do names like 'Janis Joplin' work?"""
@@ -324,18 +331,23 @@ my_survey.show_results()
 
 ## Key Takeaways
 
+**Testing Basics**:
 - Tests verify code works correctly
 - Unit tests check individual functions
 - Test cases group related tests
-- `assertEqual()` compares expected and actual values
+- Write tests before fixing bugs
+- Tests help prevent regressions
+
+**unittest Framework**:
 - `unittest` provides testing framework
-- `setUp()` prepares test data
+- `assertEqual()` compares expected and actual values
 - `assertIn()` checks list membership
 - `assertNotIn()` checks non-membership
+- `setUp()` prepares test data
+
+**Test Execution**:
 - Test runners execute tests
 - Failing tests indicate bugs
 - Passing tests verify correctness
 - Test coverage measures completeness
-- Integration tests check system parts
-- Write tests before fixing bugs
-- Tests help prevent regressions 
+- Integration tests check system parts 

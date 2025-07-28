@@ -4,6 +4,13 @@
 
 **Definition**: A function that pauses your program and waits for the user to enter some text, which is then stored as a string.
 
+**Key Points**:
+- Always returns a string
+- Takes an optional prompt parameter
+- Program waits for user input
+- Use `int()` to convert to number
+
+**Example**:
 ```python
 # Basic user input
 name = input("Please enter your name: ")
@@ -308,14 +315,19 @@ else:
 
 ## Key Takeaways
 
+**User Input**:
 - `input()` gets user input as a string
 - `int()` converts string to integer
-- `while` loops run while condition is True
-- Use flags to control while loops
-- `break` exits a loop immediately
+- Always provide clear prompts to users
+
+**while Loops**:
+- Run while condition is True
+- Use flags to control loops
+- `break` exits loop immediately
 - `continue` skips to next iteration
+
+**Operators and Methods**:
 - `%` operator gives remainder
-- Use while loops to move items between lists
 - `remove()` removes first occurrence of value
-- Build dictionaries with user input
-- Always provide clear prompts to users 
+- Use while loops to move items between lists
+- Build dictionaries with user input 
